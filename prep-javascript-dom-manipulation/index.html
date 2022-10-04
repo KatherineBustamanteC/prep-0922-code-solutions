@@ -13,17 +13,21 @@
     <p class="first-paragraph">
       I really like coding.
     </p>
-    <p class="secondParagraph"> I also really like to watch television and eating pancakes.
+    <p class="secondParagraph">
+      I also really like to watch television and eating pancakes.
     </p>
-    <p class="thirdParagraph"> I hope one day to meet people that also like coding, television, and pancakes.
+    <p class="thirdParagraph">
+      I hope one day to meet people that also like coding, television, and pancakes.
     </p>
   </div>
   <script>
     var $secondParagraph = document.querySelector('.secondParagraph');
     console.log($secondParagraph);
+    $secondParagraph.textContent = 'I also really like to watch television and eating pancakes.';
 
     var $thirdParagraph = document.querySelector('.thirdParagraph');
     console.log($thirdParagraph);
+    $thirdParagraph.textContent = 'I hope one day to meet people that also like coding, television, and pancakes.';
   </script>
 </body>
 </html>
